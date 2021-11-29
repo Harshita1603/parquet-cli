@@ -131,7 +131,7 @@
     <p>CSV: Generate an Avro schema using the headers and the first column. (maybe inaccurate)</p>
   </li>
   <li>
-    <p>SQL:  Generate the Avro schema using resultset metadata. (high accuracy).</p>
+    <p>MySQL:  Generate the Avro schema using resultset metadata. (high accuracy).</p>
   </li>
 </ul>
 <h3>STEP 2 (Create ParquetWriters)(Common)</h3>
@@ -149,7 +149,7 @@
     <p>CSV: Use AvroCSVReader (out of the box) to read a CSV row and convert it into a record </p>
   </li>
   <li>
-    <p>SQL: Convert one row from the resultset into an AVRO record.</p>
+    <p>MySQL: Convert one row from the resultset into an AVRO record.</p>
   </li>
 </ul>
 <h3>STEP 4 (Write the record using the writers)(common)</h3>
