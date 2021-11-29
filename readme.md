@@ -79,7 +79,7 @@
   <a href="https://avro.apache.org/docs/1.10.0/spec.html#schema_record">Schema Record Definition</a>
 </p>
 <h1>AIM</h1>
-<p>The utility aims to provide a simple interface to convert CSV and JSON files to parquet format. Apart from this one can connect to the database and extract the results of a query into the parquet file format.</p>
+<p>The utility aims to provide a simple interface to convert CSV and MySQL files to parquet format. Apart from this one can connect to the database and extract the results of a query into the parquet file format.</p>
 <h2>Requirements :</h2>
 <ul>
   <li>Windows: hadoop.dll, hdfs.dll (<a href="https://github.com/cdarlint/winutils">link</a>)</li>
